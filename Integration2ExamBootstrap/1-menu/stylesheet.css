@@ -1,0 +1,133 @@
+body {
+  background-color: #f3f2ef;
+  font-family:'Nunito', sans-serif ;
+}
+h2 {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 18px;
+  margin: 0;
+}
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.searchbarDiv {
+justify-self: start;
+flex: 1 0 285px;
+}	
+.searchbar{
+  border-radius: 7px;
+  background-color: #eef3f8;
+  width: 285px;
+}
+.dropdownProfile {
+  width: 260px;
+}
+.freeTry {
+  align-items: center;
+  color: #5d3b09;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: center;
+  line-height: 18px;
+  text-align: center;
+  max-width: 120px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+@media (min-width: 576px) {
+  .navbar {
+    padding: 10px;
+  }	
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 50px;
+  }
+
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa>.badge {
+    top: -7px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa{
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+  }
+  .nav-link> img{
+    display: block;
+    top: 0;
+    margin: 0 25%;
+  }
+}
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 50px;
+    vertical-align: bottom;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+  }
+  .navPub {
+    border-left: 1px solid #f3f2ef;
+    height: 100%;
+    padding: 0;
+  }
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+  }
+}
+
+.return {
+  position : fixed;
+  bottom : 15px;
+  right: 15px;
+  }

@@ -1,0 +1,20 @@
+.setBorder{
+    border-radius: 15px;
+    border: 1px solid #e0dfdc;
+    background-color: #ffffff;
+}
+.sidebar2{
+    border-top: 1px solid #ebebeb;
+}
+
+.cards{
+    height: 285px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.return {
+    position : fixed;
+    bottom : 15px;
+    right: 15px;
+    }
