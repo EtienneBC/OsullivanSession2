@@ -1,0 +1,42 @@
+body {
+    background-color: #2d2d2d;
+    font-family: 'Nunito', sans-serif;
+    color: #EE4266;
+    text-align: center;
+    font-size: 1.5em;
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+input {
+    background-color: #EE4266;
+    color: #2d2d2d;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn {
+    background-color: #FFD23F;
+    color: #2d2d2d;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #2d2d2d;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #2d2d2d;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #2d2d2d;
+  }
